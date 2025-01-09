@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Walter+Turncoat&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Raleway";
+}
+
+.heading {
+    margin-top: 15px;
+    font-family: "Walter Turncoat", cursive;  
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+    font-size: 36px;
+}
+
+.red_col {
+    color: rgb(212, 0, 0);
+}
+
+#out {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* background-color: #b0daf1; */
+    background-color: #233385;
+}
+
+.in {
+    height: 570px;
+    margin: 0 auto;
+    /* background-color: #e0e1dd; */
+    background-color: #d1e6ff;
+    border-radius: 15px;
+    border: solid 1px black;
+}
+
+.inner {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    justify-items: center;
+    padding: 20px;
+    padding-top: 15px;
+}
+
+.sub_heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.flexer {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.lights{
+    background-color: rgb(50, 50, 50);
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.lights * {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: solid 1.5px black;
+    margin-top: 8px;
+    transition: all 0.3s ease;
+}
+
+.box{
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.box ul{
+    padding-top: 12px;
+}
+
+#Emer{
+    border-radius: 12px;
+    padding-left: 15px;
+    /* background-color: #d71a1a; */
+}
+
+/* off */
+/* background-color: #3e3e3e;
+ box-shadow: 0 8px 15px rgba(0, 0, 0, 0.8), inset 0 0 10px rgba(0, 0, 0, 0.8); */
+
+.red {
+    /* background-color: #636363;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.8), inset 0 0 5px rgba(0, 0, 0, 0.8); */
+    /* background-color: #0026e6; */
+    background-color: #e60000;
+    /* box-shadow: 0 8px 20px rgb(198, 0, 0), inset 0 0 5px rgba(0, 0, 0, 0.8); */
+}
+
+.yellow {
+    background-color: #636363;
+    /* box-shadow: 0 6px 8px rgba(0, 0, 0, 0.8), inset 0 0 5px rgba(0, 0, 0, 0.8); */
+    /* background-color: #fff700;
+    box-shadow: 0 8px 20px rgba(190, 155, 0, 0.8), inset 0 0 5px rgba(0, 0, 0, 0.8); */
+}
+
+.green {
+    /* background-color: #00650f; */
+    /* background-color: #00c41d;
+    box-shadow: 0 8px 20px rgba(43, 255, 0, 0.8), inset 0 0 5px rgba(0, 0, 0, 0.8); */
+    background-color: #636363;
+    /* box-shadow: 0 6px 8px rgba(0, 0, 0, 0.8), inset 0 0 5px rgba(0, 0, 0, 0.8); */
+}
+
+.in li{
+    list-style: none;
+    padding: 0 10px 10px 24px;
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 16px;
+    font-weight: 500;
+}
